@@ -1,0 +1,17 @@
+import { Meta } from "@storybook/blocks";
+import '../../stories/css/guidance.css';
+
+<Meta title="components/Button/Guidance" />
+
+# Guidance
+
+Buttons are an interactive graphical control element that triggers an event or action.
+
+### Button Types
+<div className="button-types-table">
+  |type   |behavior|
+  |-------|--------|
+  |submit |The button submits the form data to the server.  This is the default behavior of button element for buttons associated with a `<form>`,  if the attribute is not specified, or if the attribute is an empty or invalid value.|
+  |button |The button has no default behavior, and does nothing when pressed by default. It can have client-side scripts listen to the element's events, which are triggered when the events occur.|
+  |reset  |This type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset" target="_blank">resets all the controls</a> to their initial values, like `<input type="reset">`. (This behavior tends to annoy users.)|
+</div>

@@ -1,0 +1,17 @@
+.button-types-table {
+  table {
+    max-width: 715px;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  th:first-child {
+    width: 100px;
+  }
+
+  tr {
+    background: transparent !important;
+  }
+}

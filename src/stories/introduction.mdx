@@ -1,0 +1,65 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import irsTopImage from './assets/top-image.png';
+import './css/introduction.css';
+
+<Meta title="Introduction" />
+
+{<img src={irsTopImage} alt="IRS Top Image" id="top-image" />}
+
+# Welcome to the IRS Design System
+
+The IRS Design System (formerly called the Online Design Guide, or ODG) is a tool that provides design standards for IRS applications, products, and services. It seeks to create a consistent online experience for IRS customers by using a design system developed with industry best practices, validated by user testing, and driven by the IRS brand.
+
+## What is a design system?
+
+A design system is a repository of design components used to create our various websites and applications. These pre-made components take the guesswork out of what they should look like, interaction guidelines, and how they are coded.
+
+## What is Storybook?
+
+Storybook is a way to view production-ready code, created directly from our design system in Figma. It allows developers to see the latest design specifics for their reusable components.
+
+## Design System Benefits
+
+Design systems increase the usability of digital applications and decrease the time it takes to develop them.
+
+<div className="irs-benefits">
+  <div>
+    ### Benefits for Designers
+    A design system provides teams with a single space to review, enhance, and share UI components with the greater organization. It also provides additional context, accessibility requirements, and usage guidelines.
+  </div>
+
+  <div>
+    ### Benefits for Developers
+    This design system is a repository of reusable code snippets for all IRS applications and websites. Not only does this increase coding efficiency, but it also gives developers the ability to view, edit, and test components in isolation.
+  </div>
+</div>
+
+## Recent Updates
+
+Implemented ODG-only Tab View component.
+
+For a full list of updates, please visit our [changelog](#irs-design-system-changelog).
+
+## Our Design Vision
+
+We are striving toward a digital ecosystem with useful, accessible, and consistent user interfaces that solve our users' problems.
+
+## Resources
+- <a href="https://designsystem.digital.gov/" target="_blank">US Web Design System</a>
+- <a href="https://twe-uswds-proof-of-concept-master-pl.irslabs.org/" target="_blank">TWE Proof of Concept</a>
+
+# IRS Design System Changelog
+
+## 31 January, 2025 - Version 0.0.1
+
+### New Features
+
+- Implemented ODG-only Tab View component.
+
+### Updated Features
+
+- Updated global stylesheet to only import the USWDS styles we need.
+
+### Bug Fixes
+
+- Alert now has the proper padding between the icon and the left edge of the component.

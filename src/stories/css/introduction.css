@@ -1,0 +1,11 @@
+#top-image {
+  margin-bottom: 2rem;
+  width: '100%';
+}
+
+.irs-benefits {
+  div {
+    display: inline-block;
+    width: 50%;
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "irs-design-system",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p ${PORT:-6006} --no-open",
+    "build-storybook": "storybook build",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@uswds/elements": "^1.0.0-alpha.2",
+    "@uswds/uswds": "^3.11.0",
+    "lit": "^3.1.4",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/gitlab": "^13.2.4",
+    "@semantic-release/npm": "^12.0.1",
+    "@storybook/addon-essentials": "^8.5.1",
+    "@storybook/addon-links": "^8.5.1",
+    "@storybook/blocks": "^8.5.1",
+    "@storybook/test": "^8.5.1",
+    "@storybook/web-components": "^8.5.1",
+    "@storybook/web-components-vite": "^8.5.1",
+    "sass": "^1.83.4",
+    "semantic-release": "^24.2.1",
+    "storybook": "^8.5.1",
+    "vite": "^5.4.14"
+  },
+  "workspaces": [
+    "src/components/*"
+  ]
+}

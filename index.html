@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit</title>
+    <script type="module" src="/src/index.js" defer></script>
+  </head>
+  <body>
+    <irs-banner></irs-banner>
+    <div style="margin-left: 20px; margin-bottom: 2000px;">
+      <h2>IRS Design System Using Lit</h2>
+      <irs-tab-view>
+        <irs-tab label="Alert">
+          <irs-alert heading="foobar heading" type="info">Texty Text Text</irs-alert>
+        </irs-tab>
+        <irs-tab label="Badge">
+          <irs-badge value="100"></irs-badge>
+        </irs-tab>
+        <irs-tab label="Button">
+          <irs-button>Default</irs-button><br>
+          <irs-button disabled>Default disabled</irs-button><br>
+          <irs-button outline disabled>Outline disabled</irs-button><br>
+          <div class="padding-1 display-inline-block" style="background-color: black;">
+            <irs-button inverse>Outline Inverse</irs-button><br>
+            <irs-button inverse disabled>Outline Inverse disabled</irs-button>
+          </div>
+        </irs-tab>
+        <irs-tab label="Back To Top">
+          <irs-back-to-top></irs-back-to-top>
+        </irs-tab>
+        <irs-tab label="Help Icon">
+          <irs-help-icon>
+            <span slot="label">Help Icon Label</span>
+            <span slot="content">Help Icon Content</span>
+          </irs-help-icon>
+        </irs-tab>
+        <irs-tab label="Input Stepper">
+          <irs-input-stepper label="Test Stepper" min="0" max="5" initial-value="0" required show-hint></irs-input-stepper>
+        </irs-tab>
+        <irs-tab label="Link">
+          <div class="grid-container">
+            <p>This is <irs-link href="#">a text link</irs-link> on a light background.</p>
+            <p>This is a link that goes to an <irs-link external="true" href="https://irs.gov" target="_self">external text link</irs-link>.</p>
+            <div class="padding-1 display-inline-block dark-background">
+              <p>This is <irs-link href="#" alt="true">a text link</irs-link> on a dark background.</p>
+              <p><irs-link external="true" href="https://irs.gov" target="_target" alt="true">This</irs-link> is an alternate external text link on a dark background.</p>
+            </div>
+          </div>
+          <style>
+            .dark-background {
+              background-color: #2e2e2e;
+              color: #e6e6e6;
+            }
+          </style>
+        </irs-tab>
+        <irs-tab label="Search">
+          <irs-search placeholder="Search"></irs-search>
+        </irs-tab>
+        <irs-tab label="Spinner">
+          <irs-spinner></irs-spinner>
+        </irs-tab>
+      </irs-tab-view>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+@forward 'irs-theme';
+// @forward 'uswds';
+
+// component packages
+@forward 'usa-alert';
+@forward 'usa-banner';
+@forward 'usa-button';
+@forward 'usa-checkbox';
+@forward 'usa-footer';
+@forward 'usa-header';
+@forward 'usa-icon';
+@forward 'usa-input';
+@forward 'usa-link';
+@forward 'usa-search';
+@forward 'usa-select';
+@forward 'usa-sidenav';
+
+// dependencies
+@forward 'usa-hint';
+@forward 'uswds-global';
+@forward 'uswds-utilities';
